@@ -1,0 +1,196 @@
+/* Base Theme Colors */
+* {
+    -fx-base-color: #1e1e2f;
+    -fx-card-color: #2b2b40;
+    -fx-primary-color: #4a90e2;
+    -fx-text-color: #ffffff;
+    -fx-muted-color: #8c8c9b;
+    -fx-success-color: #00e676;
+    -fx-danger-color: #ff5252;
+}
+
+.main-background {
+    -fx-background-color: -fx-base-color;
+    -fx-font-family: "Segoe UI", "Roboto", sans-serif;
+}
+
+/* Header Bar */
+.header-bar {
+    -fx-background-color: -fx-card-color;
+    -fx-padding: 15px 25px;
+    -fx-alignment: center-left;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0, 0, 2);
+}
+
+.header-title {
+    -fx-text-fill: -fx-text-color;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.status-label {
+    -fx-text-fill: -fx-text-color;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* Main Sections */
+.tracked-section {
+    -fx-padding: 25px;
+}
+
+.alerts-sidebar {
+    -fx-background-color: #1a1a27;
+    -fx-padding: 25px;
+    -fx-border-color: #2b2b40;
+    -fx-border-width: 0 0 0 1px;
+}
+
+/* Cards */
+.card {
+    -fx-background-color: -fx-card-color;
+    -fx-background-radius: 8px;
+    -fx-padding: 15px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 2);
+}
+
+.card-title {
+    -fx-text-fill: -fx-text-color;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.card-title-red {
+    -fx-text-fill: -fx-danger-color;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+/* Buttons */
+.btn-primary {
+    -fx-background-color: -fx-primary-color;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6px;
+    -fx-padding: 8px 15px;
+    -fx-cursor: hand;
+}
+
+.btn-primary:hover {
+    -fx-background-color: #357abd;
+}
+
+.btn-primary:disabled {
+    -fx-background-color: #4a5a72;
+    -fx-text-fill: #8a9bb2;
+}
+
+.btn-secondary {
+    -fx-background-color: transparent;
+    -fx-border-color: -fx-primary-color;
+    -fx-border-radius: 6px;
+    -fx-text-fill: -fx-primary-color;
+    -fx-font-weight: bold;
+    -fx-padding: 7px 14px;
+    -fx-cursor: hand;
+}
+
+.btn-secondary:hover {
+    -fx-background-color: rgba(74, 144, 226, 0.1);
+}
+
+.btn-danger-small {
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-danger-color;
+    -fx-cursor: hand;
+}
+.btn-danger-small:hover {
+    -fx-background-color: rgba(255, 82, 82, 0.2);
+    -fx-background-radius: 4px;
+}
+
+/* Inputs */
+.input-field {
+    -fx-background-color: #1e1e2f;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: -fx-muted-color;
+    -fx-border-color: #44445c;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-padding: 8px 10px;
+}
+
+.input-field:focused {
+    -fx-border-color: -fx-primary-color;
+}
+
+/* TableView */
+.modern-table {
+    -fx-background-color: -fx-card-color;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-color: transparent;
+}
+.modern-table .column-header-background {
+    -fx-background-color: #35354a;
+    -fx-background-radius: 8px 8px 0 0;
+}
+.modern-table .column-header {
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-size: 40px;
+}
+.modern-table .column-header .label {
+    -fx-text-fill: -fx-muted-color;
+}
+.modern-table .table-row-cell {
+    -fx-background-color: -fx-card-color;
+    -fx-border-color: transparent transparent #35354a transparent;
+    -fx-text-background-color: -fx-text-color;
+    -fx-cell-size: 45px;
+}
+.modern-table .table-row-cell:hover {
+    -fx-background-color: #35354a;
+}
+.modern-table .table-row-cell:odd {
+    -fx-background-color: #2e2e42;
+}
+.modern-table .table-row-cell:odd:hover {
+    -fx-background-color: #35354a;
+}
+
+/* ListView */
+.modern-list {
+    -fx-background-color: transparent;
+    -fx-control-inner-background: transparent;
+}
+.modern-list .list-cell {
+    -fx-background-color: #1e1e2f;
+    -fx-text-fill: -fx-text-color;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px;
+    -fx-cell-size: 55px;
+}
+.modern-list .list-cell:empty {
+    -fx-background-color: transparent;
+}
+
+/* Toast */
+.toast {
+    -fx-background-color: #323232;
+    -fx-background-radius: 5px;
+    -fx-padding: 15px 25px;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0, 0, 5);
+}
+.toast-success {
+    -fx-border-color: -fx-success-color;
+    -fx-border-width: 0 0 0 4px;
+    -fx-border-radius: 5px;
+}
+.toast-error {
+    -fx-border-color: -fx-danger-color;
+    -fx-border-width: 0 0 0 4px;
+    -fx-border-radius: 5px;
+}

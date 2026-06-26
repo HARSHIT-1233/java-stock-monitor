@@ -1,0 +1,12 @@
+com\stockmonitor\ui\DashboardController$2.class
+com\stockmonitor\ui\DashboardController$1.class
+com\stockmonitor\util\ApiClient.class
+com\stockmonitor\model\Alert.class
+com\stockmonitor\service\AlertManager.class
+com\stockmonitor\model\Stock.class
+com\stockmonitor\ui\DashboardController.class
+com\stockmonitor\Main.class
+com\stockmonitor\service\StockService.class
+com\stockmonitor\ui\DashboardController$4.class
+com\stockmonitor\model\Alert$Condition.class
+com\stockmonitor\ui\DashboardController$3.class

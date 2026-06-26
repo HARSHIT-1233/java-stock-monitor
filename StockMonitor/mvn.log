@@ -1,0 +1,52 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.stockmonitor:stock-monitor >-------------------
+[INFO] Building stock-monitor 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] 6 problems were encountered while building the effective model for org.openjfx:javafx-controls:jar:17.0.6 during dependency collection step for project (use -X to see details)
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ stock-monitor ---
+[INFO] Deleting D:\JP\StockMonitor\target
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ stock-monitor ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ stock-monitor ---
+[INFO] Changes detected - recompiling the module! :source
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 7 source files with javac [debug target 11] to target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] system modules path not set in conjunction with -source 11
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/JP/StockMonitor/src/main/java/com/stockmonitor/ui/DashboardController.java:[198,21] cannot find symbol
+  symbol: class VBox
+[ERROR] /D:/JP/StockMonitor/src/main/java/com/stockmonitor/ui/DashboardController.java:[198,37] cannot find symbol
+  symbol: class VBox
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.738 s
+[INFO] Finished at: 2026-04-08T23:42:21+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project stock-monitor: Compilation failure: Compilation failure: 
+[ERROR] /D:/JP/StockMonitor/src/main/java/com/stockmonitor/ui/DashboardController.java:[198,21] cannot find symbol
+[ERROR]   symbol: class VBox
+[ERROR] /D:/JP/StockMonitor/src/main/java/com/stockmonitor/ui/DashboardController.java:[198,37] cannot find symbol
+[ERROR]   symbol: class VBox
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
