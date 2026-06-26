@@ -197,7 +197,7 @@ This project demonstrates:
 
 ## 👨‍💻 Author
 
-Developed as a Java desktop application project to demonstrate real-time API integration, JavaFX GUI development, and object-oriented software design.
+Harshit Singh
 
 ---
 
